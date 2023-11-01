@@ -1,0 +1,112 @@
+.section4{
+
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    background-color: #0e0c0c;
+}
+
+.section4Heading h2{
+
+    text-align: center;
+    font-size: 39px;
+
+    color: #a09a9a;
+}
+.section4Area{
+    height: 60%;
+    margin: 20px;
+    background-color: #0e0c0c;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section4Area .item{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    animation: mymoveup 1.5s infinite;
+    transition: all ease 0.5s;
+}
+
+.section4Area  .item1{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    transition: all ease 0.5s;
+    animation: mymovedown  1.5s infinite;
+  
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+}
+.prize{
+    width: 100%;
+    height: 50%;
+    background: #a09a9a;
+    text-align: justify;
+    position: relative;
+    animation: mymoveup 1.5s infinite;
+    transition: all ease 0.5s;
+  
+
+}
+.prize h1{
+    padding: 10px;
+}
+
+.prize h3{
+    padding: 20px;
+
+    font-size: 40px;
+}
+
+.prisecontian{
+
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px;
+    
+}
+
+
+.item:hover{
+    height:360px ;
+    transform: scaleY(1.1);
+}
+
+
+
+
+@keyframes mymoveup {
+    from {top: 0px;}
+    to {top: -30px;}
+   
+  }
+
+  
+@keyframes mymovedown {
+    from {bottom: 30px}
+    to {bottom: 0px;}
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+    .section4Area{
+        flex-direction: column;
+    }
+  
+ }
+
+ 

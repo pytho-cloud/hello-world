@@ -1,0 +1,103 @@
+.section2{
+
+        display: flex;
+    
+     justify-content: center;
+  
+ 
+}
+
+img{
+    width: 100%;
+}
+
+.img{
+    width: 80%;
+}
+
+.img2Text{
+    position: relative;
+}
+.imgPlusText{
+    width: 80%;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  
+}
+.imgPlusText  .textArea  {
+    
+
+
+   width: 60%;
+
+    text-align: center;
+align-items: center;
+animation: mymove 5s infinite;
+
+   
+ 
+}
+.imgPlusText .textArea  p{
+    
+    font-size: 12px;
+    color: #1a1414ec;
+}
+
+.imgPlusText .textArea h1{
+    color: #f1f1f1;
+}
+
+.imgPlusText .textArea  button{
+    
+    font-size: 26px;
+    background: #1d1b1bb2;
+    border: none;
+    margin: 10px;
+    padding: 14px;
+    color: #f5f1f1cb;
+    border-radius: 25px;
+    transition: all ease 0.5s;
+
+}
+.imgPlusText .textArea  button:hover{
+
+   padding: 18px;
+    font-size: 26px;
+}
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 10px;}
+  }
+
+
+
+  @media only screen and (max-width: 1000px) {
+
+   
+     .textArea h1{
+        font-size: 28px;
+     }
+
+     .textArea{
+        width: 100%;
+     }
+  }
+
+  
+  @media only screen and (max-width: 500px) {
+
+   
+    .textArea h1{
+       font-size: 18px;
+    }
+    .textArea h1{
+
+ }
+
+}
